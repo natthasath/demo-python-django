@@ -11,7 +11,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 - Create Start Project
 
 ```
-django-admin startproject app
+django-admin startproject core
 ```
 
 - Create App
@@ -73,7 +73,10 @@ DEBUG = False
 ### 🏆 Run
 
 - [http://localhost:8000/admin](http://localhost:8000/admin) username : `admin` password : `admin`
+- [https://localhost:8000/admin](https://localhost:8000/admin) username : `admin` password : `admin`
 
 ```
 python manage.py runserver
+python manage.py runsslserver
+python manage.py runsslserver --certificate ../certs/localhost.crt --key ../certs/localhost.key
 ```
