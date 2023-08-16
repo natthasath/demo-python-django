@@ -80,3 +80,16 @@ python manage.py runserver
 python manage.py runsslserver
 python manage.py runsslserver --certificate ../certs/localhost.crt --key ../certs/localhost.key
 ```
+
+### 💣 Remove App
+
+1. Remove App from `INSTALLED_APPS` in `settings.py`
+2. Delete App's Database Tables
+```
+python manage.py makemigrations -n drop_all_tables module
+```
+3. Delete App's Files
+4. Remove App's URLs in `urls.py`
+5. Clear Cached Files
+6. Check for Dependencies
+7. Test Your Project
