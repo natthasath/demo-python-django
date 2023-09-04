@@ -13,6 +13,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [Pagination](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 - [Model Meta Class](https://docs.djangoproject.com/en/4.2/ref/models/options/)
 - [Slug Field](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
+- [SSL Server](https://github.com/teddziuba/django-sslserver)
 
 ### 🚀 Setup
 
