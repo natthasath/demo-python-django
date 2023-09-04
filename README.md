@@ -9,6 +9,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 ### ⭐ Features
 
 - [Import and Export](https://django-import-export.readthedocs.io/en/latest/index.html)
+- [Search](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 
 ### 🚀 Setup
 
