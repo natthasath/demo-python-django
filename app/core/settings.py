@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'module',
     'sslserver',
+    'import_export',
 ]
 
 MIDDLEWARE = [

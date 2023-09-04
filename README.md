@@ -6,6 +6,10 @@ Django: Python web framework that streamlines backend development, encouraging e
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
+### ⭐ Features
+
+- [Import and Export](https://django-import-export.readthedocs.io/en/latest/index.html)
+
 ### 🚀 Setup
 
 - Create Start Project
