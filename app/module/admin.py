@@ -4,6 +4,7 @@ from import_export.admin import ImportExportModelAdmin
 
 class ArticleAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     list_display = ('title', 'date_created', 'date_updated')
+    list_per_page = 1
     search_fields = ['title']
 
 # Register your models here.
