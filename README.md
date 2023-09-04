@@ -12,8 +12,13 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [Search](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 - [Pagination](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 - [Model Meta Class](https://docs.djangoproject.com/en/4.2/ref/models/options/)
-- [Slug Field](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
 - [SSL Server](https://github.com/teddziuba/django-sslserver)
+- [UUID Field](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
+- [Slug Field](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
+- [Image Field](https://docs.djangoproject.com/en/4.2/topics/files/)
+- [File Field](https://docs.djangoproject.com/en/4.2/topics/files/)
+- [Random File Name](https://stackoverflow.com/questions/2673647/enforce-unique-upload-file-names-using-django)
+- [Show Image](https://dev.to/vijaysoni007/how-to-show-images-of-the-model-in-django-admin-5hk4)
 
 ### 🚀 Setup
 

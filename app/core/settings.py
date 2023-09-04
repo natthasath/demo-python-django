@@ -131,3 +131,5 @@ STATIC_ROOT = Path.joinpath(BASE_DIR, "staticfile")
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_ROOT = BASE_DIR / 'uploads'

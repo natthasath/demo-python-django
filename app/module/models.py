@@ -1,4 +1,6 @@
 from django.db import models
+from .helpers import RandomFileName
+import uuid
 
 # Create your models here.
 class article(models.Model):
@@ -18,3 +20,14 @@ class article(models.Model):
     
     def cutbody(self) :
         return self.body[:255]+"..."
+    
+class photo(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    image = models.ImageField(upload_to=RandomFileName('image'), verbose_name=u'อัพโหลดรูปภาพ')
+
+    class Meta:
+        verbose_name = 'Photo'
+        verbose_name_plural = 'Photos'
+
+    def __str__(self):
+        return str(self.image)
