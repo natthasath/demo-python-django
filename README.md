@@ -11,6 +11,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [Import and Export](https://django-import-export.readthedocs.io/en/latest/index.html)
 - [Search](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 - [Pagination](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
+- [Logs](https://www.airplane.dev/blog/django-application-monitoring)
 - [Model Meta Class](https://docs.djangoproject.com/en/4.2/ref/models/options/)
 - [SSL Server](https://github.com/teddziuba/django-sslserver)
 - [UUID Field](https://docs.djangoproject.com/en/4.2/ref/models/fields/)

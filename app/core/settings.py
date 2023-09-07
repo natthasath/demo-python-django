@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'module',
+    'log',
     'sslserver',
     'import_export',
+    'django_admin_logs',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +135,6 @@ STATIC_ROOT = Path.joinpath(BASE_DIR, "staticfile")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = BASE_DIR / 'uploads'
+
+DJANGO_ADMIN_LOGS_DELETABLE = True
+DJANGO_ADMIN_LOGS_ENABLED = False
