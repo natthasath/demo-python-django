@@ -8,6 +8,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 
 ### ⭐ Features
 
+- [CKEditor](https://www.pycodemates.com/2022/03/integrate-ckeditor-to-django-admin-and-form-fields.html)
 - [Import and Export](https://django-import-export.readthedocs.io/en/latest/index.html)
 - [Search](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 - [Pagination](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)

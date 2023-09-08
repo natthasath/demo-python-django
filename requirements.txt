@@ -3,3 +3,4 @@ django-sslserver
 python-decouple
 django-import-export
 django-admin-logs
+django-ckeditor
