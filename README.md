@@ -21,6 +21,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [File Field](https://docs.djangoproject.com/en/4.2/topics/files/)
 - [Random File Name](https://stackoverflow.com/questions/2673647/enforce-unique-upload-file-names-using-django)
 - [Show Image](https://dev.to/vijaysoni007/how-to-show-images-of-the-model-in-django-admin-5hk4)
+- [Show Many Field](https://stackoverflow.com/questions/18108521/how-to-show-a-many-to-many-field-with-list-display-in-django-admin)
 
 ### 🚀 Setup
 
