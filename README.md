@@ -22,6 +22,8 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [Random File Name](https://stackoverflow.com/questions/2673647/enforce-unique-upload-file-names-using-django)
 - [Show Image](https://dev.to/vijaysoni007/how-to-show-images-of-the-model-in-django-admin-5hk4)
 - [Show Many Field](https://stackoverflow.com/questions/18108521/how-to-show-a-many-to-many-field-with-list-display-in-django-admin)
+- [Deploy](https://docs.djangoproject.com/en/4.2/howto/deployment/)
+- [Daphne ASGI](https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/daphne/)
 
 ### 🚀 Setup
 
@@ -96,6 +98,13 @@ DEBUG = False
 python manage.py runserver
 python manage.py runsslserver
 python manage.py runsslserver --certificate ../certs/localhost.crt --key ../certs/localhost.key
+```
+
+### 🧩 Production
+
+```
+python manage.py check --deploy
+daphne core.asgi:application
 ```
 
 ### 💣 Remove App
