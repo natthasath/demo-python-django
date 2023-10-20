@@ -24,6 +24,7 @@ Django: Python web framework that streamlines backend development, encouraging e
 - [Show Many Field](https://stackoverflow.com/questions/18108521/how-to-show-a-many-to-many-field-with-list-display-in-django-admin)
 - [Deploy](https://docs.djangoproject.com/en/4.2/howto/deployment/)
 - [Daphne ASGI](https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/daphne/)
+- [Admin Interface](https://testdriven.io/blog/customize-django-admin/)
 
 ### 🚀 Setup
 
