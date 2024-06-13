@@ -1,9 +1,10 @@
 from django.contrib import admin
 from .models import article, photo
 from import_export.admin import ImportExportModelAdmin
+from djangoql.admin import DjangoQLSearchMixin
 from django.utils.html import format_html
 
-class ArticleAdmin(ImportExportModelAdmin, admin.ModelAdmin):
+class ArticleAdmin(DjangoQLSearchMixin, ImportExportModelAdmin, admin.ModelAdmin):
     list_display = ('title', 'date_created', 'date_updated')
     list_per_page = 1
     search_fields = ['title']

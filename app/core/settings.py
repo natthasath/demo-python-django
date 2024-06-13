@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'import_export',
     'django_admin_logs',
+    'djangoql',
 ]
 
 # Style Admin Site with Django Admin Interface
